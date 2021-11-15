@@ -1,0 +1,29 @@
+{
+  "name": "@hyperlink/ups-status",
+  "version": "1.0.0",
+  "description": "Node.Js API to get status of UPS connected to your MacOS",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "tsc"
+  },
+  "keywords": [
+    "UPS",
+    "MacOS"
+  ],
+  "author": "Xiaoxin Lu <javascript@yahoo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/node": "^16.11.6",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "execa": "^5.1.1"
+  }
+}
