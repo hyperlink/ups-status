@@ -1,6 +1,6 @@
 {
   "name": "@hyperlink/ups-status",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.Js API to get status of UPS connected to your MacOS",
   "main": "dist/index.js",
   "files": [
@@ -12,8 +12,17 @@
   },
   "keywords": [
     "UPS",
-    "MacOS"
+    "UPS State",
+    "PS",
+    "MacOS",
+    "Power Management",
+    "Power Source Status",
+    "pmset"
   ],
+  "engines": {
+    "node": ">=14.17"
+  },
+  "repository": "github:hyperlink/ups-status",
   "author": "Xiaoxin Lu <javascript@yahoo.com>",
   "license": "MIT",
   "devDependencies": {
